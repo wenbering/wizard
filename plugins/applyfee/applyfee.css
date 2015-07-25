@@ -1,0 +1,51 @@
+.fee-main .fee-icon {
+	border-radius: 8px;
+	background : url('../../images/common/applyfee/fee-icon.png') no-repeat;
+	height: 16px;
+	width: 16px;
+	display: inline-block;
+	margin-right : 6px;
+	margin-bottom: -2px;
+}
+
+
+/* .fee-main .fee-icon div {
+	font : bold 12px/16px 'Microsoft YaHei';
+	color : #fff;
+	margin-left : 4px;
+} */
+
+.fee-main {
+	font-size : 14px;
+	color : #a6acb0;
+}
+
+.fee-main .tooltip.bottom .tooltip-arrow {
+	border-bottom-color: #374043;
+}
+
+.fee-main .tooltip-inner {
+	background-color : #374043;
+	max-width : none;
+	font-size : 12px;
+	border-radius : 2px;
+}
+
+.fee-main .fee-table {
+	margin : 12px 0;
+}
+
+.fee-main .fee-table td {
+	padding : 0 0 0 12px;
+	white-space:nowrap;
+	text-align : left;
+}
+
+.fee-main .fee-table .rightTd {
+	padding : 0 12px 0 40px;
+}
+
+.fee-main .fee-text {
+	color : #fc671e;
+	font-size : 30px;
+}

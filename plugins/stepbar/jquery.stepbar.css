@@ -1,0 +1,67 @@
+.step-bar span {
+	clear: both;
+	display: inline-block;
+	font-size: 14px;
+	line-height : 1em;
+	/* margin-left: -2em; */
+	margin-top: 10px;
+	float : left;
+}
+
+.step-bar li {
+	list-style:none;
+	display:block;
+	height:40px;
+	float:left;
+	margin-left:3px;
+}
+
+.step-bar .li-done {
+	color: #81c82e;
+}
+
+.step-bar .li-active {
+	color: #4a497e;
+}
+
+.step-bar .li-nostart {
+	color: #d6dcdf;
+}
+
+.step-bar .icon {
+	width:16px;height:16px;float:left
+}
+
+.step-bar .icon-done {
+	 background:url('../../images/jquery/stepbar/stepDone.png') no-repeat;
+}
+
+.step-bar .icon-active {
+	background:url('../../images/jquery/stepbar/stepActive.png') no-repeat;
+}
+
+.step-bar .icon-nostart {
+	background:url('../../images/jquery/stepbar/stepNostart.png') no-repeat;
+}
+
+.step-bar {
+	width : 960px;
+	margin : 0;
+	padding : 0;
+	float : left;
+}
+
+.step-bar .line {
+	margin:8px 0 0 2px; 
+	width:160px;
+	height:2px;
+	float:left;
+}
+
+.step-bar .line-done {
+	 background-color:#81c82e
+}
+
+.step-bar .line-active, .step-bar .line-nostart {
+	background-color:#d6dcdf
+}
