@@ -14,7 +14,7 @@
 	Step			Step提供一个完整步骤所需的所有功能，如国际化、初始化及进出step逻辑控制、校验等。 依赖handler的api，可替换，可自定义，可继承
 	data center 	        模块之间的数据保存、交互
 	message center	        step间的通信，step模块解耦
-	portal			控制场景的切换
+	portal			控制场景的切换，相当于controller
 	
 	Adapter、Handler、Step构成了组件库，提供不同粒度的组件，供调用者选用
 <br>
